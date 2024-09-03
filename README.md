@@ -1,16 +1,18 @@
-動機與背景:
-在大AI大時代裡不管是不是專業人士都必須要懂AI，挑選此專題即是將AI與多數人的副業股市做結合。在理解AI的同時也能感受AI的好處
-
-產業痛點:
-目前大家都是透過零星的資訊自行判斷，沒辦法綜觀且客觀的去評估個股狀況 現有解決方案: 商業新聞、技術指標、財報等等
-
 目的:
 目的是透過深度學習，透過歷史股價、技術指標、通貨膨脹率、等作為輸入，預測個股的收盤價格
 
 模型:
 LTMS
+CNN + LSTM
+
+比較不同look Back的精準度：
+![image](https://github.com/user-attachments/assets/1b38e778-283a-4ca7-b419-6b8622929638)
+
+比較不同的超參數：
+![image](https://github.com/user-attachments/assets/0189b4c0-2a0c-4c57-9988-111feb1aa0b6)
+
 
 資料來源:
 yfinance,ta,fredapi
 
-Loss: 5.1464e-04
+
