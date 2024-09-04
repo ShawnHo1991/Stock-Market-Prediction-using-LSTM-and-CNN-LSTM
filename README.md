@@ -1,5 +1,9 @@
 透過LSTM與比較CNN+LSTM來分析蘋果股價
 
+結論：CNN+LSTM 模型比單純的 LSTM 更複雜，以這專案LSTM預估的loss較低，跟實際值也較接近
+
+小結：early stop確實能有效降低CNN過度擬合的狀況
+
 特徵：apple_stock股價2015-2024高低價、成交量、sp500成交價、VIX指數、14天RSI、CPI、蘋果季營收
 
 比較兩種資料庫透過LSTM，資料庫1不考慮收盤價，資料庫2不考慮收盤價＋高低價
@@ -19,6 +23,10 @@
 比較不同LSTM超參數透過CNN+LSTM：Lowest Loss: 0.000347 with parameters: units=100_dropout_rate=0.2_batch_size=64_epochs=100
 ![image](https://github.com/user-attachments/assets/935b48a6-1154-4c45-951d-e4bec149fbe8)
 
+判斷過度擬合導致曲線不夠貼合，加入early stop，預估曲線更優化: patience=5：Lowest Loss: 0.000467 with parameters: units=100_dropout_rate=0.2_batch_size=32_epochs=100
+![image](https://github.com/user-attachments/assets/a2b9a7c0-91ee-4958-8fd4-1c9502d458db)
+
+一樣的early stop設定，CNN的pooling size改為2
 
 
 
