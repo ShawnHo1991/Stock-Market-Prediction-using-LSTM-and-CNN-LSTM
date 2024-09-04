@@ -16,6 +16,10 @@
 比較不同超參數透過CNN+LSTM：Lowest Loss CNNLSTM: 0.000474 with parameters: filter=32,Kernel_size=3,pool_size=2
 ![image](https://github.com/user-attachments/assets/1262baa1-600e-4ed7-a5ce-bb00beb9d4db)
 
+比較不同LSTM超參數透過CNN+LSTM：Lowest Loss: 0.000347 with parameters: units=100_dropout_rate=0.2_batch_size=64_epochs=100
+![image](https://github.com/user-attachments/assets/935b48a6-1154-4c45-951d-e4bec149fbe8)
+
+
 
 
 資料來源:
