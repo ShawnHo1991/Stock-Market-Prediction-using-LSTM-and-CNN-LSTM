@@ -27,6 +27,7 @@
 ![image](https://github.com/user-attachments/assets/a2b9a7c0-91ee-4958-8fd4-1c9502d458db)
 
 一樣的early stop設定，CNN的pooling size改為2
+![image](https://github.com/user-attachments/assets/17f59e62-15c5-4c06-b1c4-088333c7a7a9)
 
 
 
